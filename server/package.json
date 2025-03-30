@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "type": "module",
+  "version": "1.0.1",
+  "description": "Server for LGN-EMS",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --env-file=.env index.js"
+  },
+  "author": "abinashnimz",
+  "license": "MIT"
+}
